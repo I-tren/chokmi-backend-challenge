@@ -23,7 +23,7 @@ solution code (`pytest` is the only dependency). No other packages.
 | 6 | `DESIGN.md` | Written design and judgement questions | 10 |
 
 Each module's docstring is the specification. Where it says "must", a test
-probably checks it. The visible tests are a floor, not the grade: the graded run
+probably checks it. The visible tests are a floor, not the grade: our graded run
 adds tests we don't show you, around concurrency, malformed input and the edges
 of each spec. Write your own tests for anything the spec leaves open, and say in
 `DESIGN.md` what you assumed.
@@ -34,6 +34,19 @@ pip install -r requirements.txt
 pytest                      # all parts
 pytest tests/test_2_wallet.py
 ```
+
+## How to submit
+
+1. Click **Use this template → Create a new repository** on the repo page.
+   Owner: your own account. Visibility: **Private**. Please don't use *Fork*:
+   a fork of a public repo is public, and your solution is not for sharing.
+2. Clone your copy, work on it, and push as you go (we read the commit history).
+3. Invite **fakay96** to your private repo as a collaborator (Settings →
+   Collaborators) and email us the repo link when you're done or when your
+   6 hours are up. Anything pushed after that is ignored.
+
+The *Visible tests* check in your repo's Actions tab runs the tests you can see.
+Your score comes from our own run, which includes tests you can't see.
 
 ## Rules
 
